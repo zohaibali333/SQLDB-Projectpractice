@@ -338,7 +338,7 @@ CREATE TABLE Wishlists (
 INSERT INTO Wishlists (UserID, ProductID, DateAdded) VALUES
 (1, 3, "2024-04-05"),
 (2, 2, "2024-04-12"),
-(3, 4,"20224-04-23");
+(3, 4,"2024-04-23");
 
 SELECT u.Username, COUNT(w.WishlistID) AS WishlistCount
 FROM Users u
